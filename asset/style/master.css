@@ -1,0 +1,940 @@
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+#main > #nav {
+  background-color: #131313;
+  height: 80px;
+  border-bottom: 2px solid #ffb320;
+}
+#main > #nav > div > #logo {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  #main > #nav > div > #logo {
+    justify-content: center;
+    margin-right: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main > #nav > div > #logo {
+    justify-content: flex-end;
+  }
+}
+#main > #nav > div > #logo > img {
+  max-width: 100%;
+  width: 175px;
+  height: 25px;
+}
+#main > #nav > #menu > div > ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+#main > #nav > #menu > div > ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#main > #nav > #menu-icon > i {
+  font-size: 35px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+#main > #nav > #button > div {
+  background-color: #ffb320;
+  border-radius: 30px;
+  padding: 8px 28px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  #main > #nav > #button > div {
+    padding: 8px 15px;
+    margin-left: 2px;
+  }
+}
+#main > #nav > #button > div > a {
+  font-size: 14px;
+  cursor: pointer;
+}
+#main > #header {
+  height: 115vh;
+  background-image: url(../img/header/header1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#main > #header > #headetText {
+  height: -moz-fit-content;
+  height: fit-content;
+  top: 28%;
+  left: 5%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (max-width: 768px) {
+  #main > #header > #headetText {
+    left: 0%;
+  }
+}
+#main > #header > #headetText > h2 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  #main > #header > #headetText > h2 {
+    font-size: 36px;
+  }
+}
+#main > #header > #headetText > h2 > span {
+  color: #ffb320;
+}
+#main > #header > #headetText > p {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+#main > #header > #headetText > button {
+  font-size: 15px;
+  background-color: #ffb320;
+  padding: 16px 30px;
+  outline: hidden;
+}
+#main > #news {
+  height: 10vh;
+}
+#main > #news > div:nth-of-type(1) {
+  padding-right: 30px;
+  background-color: #ffb320;
+  font-size: 18px;
+  justify-content: flex-end;
+}
+#main > #news > div:nth-of-type(2) {
+  height: 100px;
+  background-color: #131313;
+  overflow: hidden;
+}
+#main > #news > div:nth-of-type(2) > div {
+  height: 100%;
+  width: 100%;
+}
+#main > #news > div:nth-of-type(2) > div > div {
+  height: 100%;
+  margin-right: 20px;
+  float: left;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+}
+#main > #news > div:nth-of-type(2) > div > div > .paragraf {
+  height: 100%;
+}
+#main > #news > div:nth-of-type(2) > div > div > .paragraf > div {
+  margin-right: 35px;
+  display: inline-block;
+}
+#main > #news > div:nth-of-type(2) > div > div > .paragraf > div > span {
+  margin-right: 35px;
+  padding: 4px 20px;
+  display: inline-block;
+  font-size: 12px;
+}
+#main > #news > div:nth-of-type(2) > div > div > .paragraf > div:nth-of-type(1) > #new1 {
+  background-color: #ff205f;
+}
+#main > #news > div:nth-of-type(2) > div > div > .paragraf > div:nth-of-type(2) > #new2 {
+  background-color: #4eae60;
+}
+#main > #news > div:nth-of-type(2) > div > div > .paragraf > div:nth-of-type(3) > #new3 {
+  background-color: #694eae;
+}
+@media screen and (max-width: 767px) {
+  #main > #gallery {
+    height: 320vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main > #gallery {
+    height: 120vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > #gallery {
+    height: 80vh;
+  }
+}
+#main > #gallery > div {
+  height: 100%;
+}
+#main > #gallery > div > .gallery1 > div:nth-of-type(1) {
+  background-size: cover;
+  background-image: url(../img/gallery1/1.jpg);
+  background-position: center;
+}
+#main > #gallery > div > .gallery1 > div:nth-of-type(2) {
+  background-size: cover;
+  background-image: url(../img/gallery1/2.jpg);
+  background-position: center;
+}
+#main > #gallery > div > .gallery2 > div:nth-of-type(1) {
+  background-size: cover;
+  background-image: url(../img/gallery1/3.jpg);
+  background-position: top;
+}
+#main > #gallery > div > .gallery2 > div:nth-of-type(2) {
+  background-size: cover;
+  background-image: url(../img/gallery1/4.jpg);
+  background-position: center;
+}
+#main > #gallery > div > #parent > div {
+  position: relative;
+  z-index: 10;
+}
+#main > #gallery > div > #parent > div::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.604);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+}
+#main > #gallery > div > #parent > div > .box {
+  z-index: 50;
+  display: inline-block;
+  margin-left: 29px;
+  font-size: 12px;
+  padding: 6px 25px;
+}
+#main > #gallery > div > #parent > div > .box1,
+#main > #gallery > div > #parent > div > .box3 {
+  margin-top: 28px;
+  background-color: #ff205f;
+}
+#main > #gallery > div > #parent > div > .box2 {
+  margin-top: 30px;
+  background-color: #4eae60;
+}
+#main > #gallery > div > #parent > div > .box4 {
+  margin-top: 30px;
+  background-color: #694eae;
+}
+#main > #gallery > div > #parent > div > div {
+  bottom: 0;
+  left: 0;
+  padding: 0 26px 26px;
+  z-index: 50;
+}
+#main > #gallery > div > #parent > div > div > h5 {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+#main > #gallery > div > #parent > div > div > p {
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 2;
+  display: block;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+}
+#main > #gallery > div > #parent > div > div > a {
+  font-size: 12px;
+  opacity: 0.54;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  #main > #gallery > div {
+    height: 100%;
+  }
+  #main > #gallery > div > #parent {
+    height: 50% !important;
+  }
+  #main > #gallery > div > #parent > div {
+    height: 45% !important;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main > #gallery > div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #main > #gallery > div > #parent {
+    height: 50% !important;
+  }
+  #main > #gallery > div > #parent > div {
+    height: 100% !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > #gallery > div > #parent {
+    height: 90% !important;
+  }
+}
+#main > #recent {
+  background-color: #eef2f6;
+  background-image: url(../img/recent/recent-game-bg.png);
+  background-size: cover;
+  background-position: top center;
+  border-top: 1px solid #d6dee7;
+  border-bottom: 1px solid #d6dee7;
+  padding-top: 97px;
+  padding-bottom: 97px;
+}
+@media screen and (max-width: 767px) {
+  #main > #recent {
+    height: 350vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main > #recent {
+    height: 240vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > #recent {
+    height: 120vh;
+  }
+}
+#main > #recent > div > #recent-title {
+  height: 7vh !important;
+  margin-bottom: 75px;
+}
+#main > #recent > div > #recent-title > span {
+  background-color: #ff205f;
+  display: inline-block;
+  font-size: 12px;
+  padding: 6px 25px;
+}
+#main > #recent > div > #recent-title > h2 {
+  margin-top: 10px;
+  font-size: 36px;
+  display: block;
+  margin-block-start: 14px;
+  margin-block-end: 14px;
+}
+#main > #recent > div > div:nth-of-type(2) {
+  height: 92% !important;
+}
+#main > #recent > div > div:nth-of-type(2) > div {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media screen and (max-width: 767px) {
+  #main > #recent > div > div:nth-of-type(2) > div {
+    height: 33.3333333% !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main > #recent > div > div:nth-of-type(2) > div {
+    height: 50% !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > #recent > div > div:nth-of-type(2) > div {
+    height: 100% !important;
+  }
+}
+#main > #recent > div > div:nth-of-type(2) > div > section {
+  height: 100%;
+  margin-bottom: 42px;
+}
+#main > #recent > div > div:nth-of-type(2) > div > section > figure > span {
+  display: inline-block;
+  font-size: 12px;
+  padding: 6px 25px;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > figure {
+  margin: 0 !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 35vh;
+  padding: 25px 28px;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > figure > span {
+  background-color: #ff205f;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > div {
+  padding: 34px 22px 20px;
+  border: 1px solid #d6dee7;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > div > h5 {
+  margin-bottom: 20px;
+  display: block;
+  margin-block-start: 27px;
+  margin-block-end: 27px;
+  font-size: 20px;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > div > p {
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 2;
+  display: block;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  color: #878787;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > div > a {
+  font-size: 12px;
+  color: #878787;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > div > #icone {
+  right: 0;
+  bottom: 0;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > div > #icone > div {
+  height: 35px;
+  width: 35px;
+  display: block;
+  padding: 6px 8px 0;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > div > #icone > div > img {
+  vertical-align: middle;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > div > #icone > #star {
+  background-color: #ffb320;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent-div > section > div > #icone > #heart {
+  background-color: #ff205f;
+}
+#main > #recent > div > div:nth-of-type(2) > .recent1 > section > figure {
+  background-image: url(../img/recent/games/1.jpg);
+}
+#main > #recent > div > div:nth-of-type(2) > .recent2 > section > figure {
+  background-image: url(../img/recent/games/2.jpg);
+}
+#main > #recent > div > div:nth-of-type(2) > .recent3 > section > figure {
+  background-image: url(../img/recent/games/3.jpg);
+}
+#main > #blackSec {
+  background-image: url(../img/blackSec/pattern.png);
+  background-repeat: repeat;
+  padding-top: 97px;
+  padding-bottom: 97px;
+}
+@media screen and (max-width: 767px) {
+  #main > #blackSec {
+    height: 280vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main > #blackSec {
+    height: 150vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > #blackSec {
+    height: 90vh;
+  }
+}
+#main > #blackSec > div > div:nth-of-type(1) {
+  display: inline-block;
+  padding: 7px 25px;
+  font-size: 12px;
+  background-color: #fb6e10;
+}
+#main > #blackSec > div > div:nth-of-type(2) {
+  margin-right: -15px;
+  margin-left: -15px;
+  height: 90%;
+}
+#main > #blackSec > div > div:nth-of-type(2) > div {
+  background-color: #252525;
+  padding-right: 15px;
+  padding-left: 0px;
+}
+#main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(1) {
+  height: 10%;
+}
+#main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div {
+  display: inline-block;
+  padding: 8px 21px;
+  font-size: 12px;
+  background-color: #ffb320;
+}
+#main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) {
+  height: 90%;
+  padding: 38px 24px;
+}
+@media screen and (max-width: 991px) {
+  #main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div {
+    height: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div {
+    height: 100%;
+  }
+}
+#main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > img {
+  height: 100%;
+}
+@media screen and (min-width: 992px) {
+  #main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > img {
+    height: 80%;
+  }
+}
+#main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > h4 {
+  color: #ffb320;
+  margin-bottom: 20px;
+  font-size: 24px;
+  display: block;
+  margin-block-start: 21px;
+  margin-block-end: 21px;
+  padding-left: 21px;
+}
+#main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul {
+  margin-bottom: 20px;
+  display: block;
+  margin-block-start: 21px;
+  margin-block-end: 21px;
+  padding-left: 21px;
+}
+#main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li {
+  list-style: none;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+#main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li > span {
+  color: #9a9a9a;
+  font-size: 12px;
+}
+#main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > p {
+  display: block;
+  margin-block-start: 21px;
+  margin-block-end: 21px;
+  font-size: 12px;
+  color: #878787;
+  line-height: 2;
+  display: block;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  padding-left: 21px;
+  padding-right: 5px;
+}
+#main > #blackSec > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > p > span {
+  color: #ffb320;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  #main > #blackSec > div > div:nth-of-type(2) > div:nth-of-type(1) {
+    margin-left: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #main > #blackSec > div > div:nth-of-type(2) > div:nth-of-type(2) {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main > #blackSec > div > div:nth-of-type(2) > div:nth-of-type(2) {
+    margin-left: 50px;
+    margin-right: 15px;
+  }
+}
+#main > #review {
+  background-color: white;
+  background-image: url(../img/review/review-bg.png);
+  background-size: cover;
+  padding-top: 97px;
+  padding-bottom: 97px;
+}
+@media screen and (max-width: 767px) {
+  #main > #review {
+    height: 380vh;
+    background-position: left top;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main > #review {
+    height: 200vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > #review {
+    height: 120vh;
+    background-position: right 10% top;
+  }
+}
+#main > #review > div {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 576px) {
+  #main > #review > div {
+    max-width: 570px;
+  }
+}
+@media screen and (min-width: 767px) {
+  #main > #review > div {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > #review > div {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #main > #review > div {
+    max-width: 1176px;
+  }
+}
+#main > #review > div > #review-title {
+  text-align: center;
+  margin-bottom: 75px;
+}
+#main > #review > div > #review-title > span {
+  display: inline-block;
+  font-size: 12px;
+  padding: 6px 25px;
+  background-color: #ff205f;
+}
+#main > #review > div > #review-title > h2 {
+  margin-top: 10px;
+  font-size: 36px;
+  display: block;
+  margin-block-start: 14px;
+  margin-block-end: 14px;
+}
+#main > #review > div > #gallery2 > div {
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+@media screen and (max-width: 991px) {
+  #main > #review > div > #gallery2 > div > .items {
+    margin-bottom: 63px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > #review > div > #gallery2 > div > .items {
+    margin-bottom: 0;
+  }
+}
+#main > #review > div > #gallery2 > div > .items > .pic {
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: top center;
+  height: 345px;
+}
+#main > #review > div > #gallery2 > div > .items > #pic1 {
+  background-image: url(../img/review/pic/1.jpg);
+}
+#main > #review > div > #gallery2 > div > .items > #pic2 {
+  background-image: url(../img/review/pic/2.jpg);
+}
+#main > #review > div > #gallery2 > div > .items > #pic3 {
+  background-image: url(../img/review/pic/3.jpg);
+}
+#main > #review > div > #gallery2 > div > .items > #pic4 {
+  background-image: url(../img/review/pic/4.jpg);
+}
+#main > #review > div > #gallery2 > div > .items > .circle {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  top: -27px;
+  left: 26px;
+  padding-top: 15px;
+  font-size: 18px;
+  z-index: 40;
+}
+#main > #review > div > #gallery2 > div > .items > #circle1 {
+  background-color: #ffb320;
+}
+#main > #review > div > #gallery2 > div > .items > #circle2 {
+  background-color: #694eae;
+}
+#main > #review > div > #gallery2 > div > .items > #circle3 {
+  background-color: #4eae60;
+}
+#main > #review > div > #gallery2 > div > .items > #circle4 {
+  background-color: #ff20ae;
+}
+#main > #review > div > #gallery2 > div > .items > .text > h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: block;
+  margin-block-start: 27px;
+  margin-block-end: 27px;
+}
+#main > #review > div > #gallery2 > div > .items > .text > p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #878787;
+  line-height: 1;
+  display: block;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+}
+#main > #footer {
+  background-image: url(../img/blackSec/pattern.png);
+  background-repeat: repeat;
+  padding: 72px 0;
+}
+@media screen and (max-width: 767px) {
+  #main > #footer {
+    height: 220vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  #main > #footer {
+    height: 150vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main > #footer {
+    height: 100vh;
+  }
+}
+#main > #footer > div {
+  position: relative;
+}
+#main > #footer > div > #back-footer {
+  position: absolute;
+  left: -30px;
+  bottom: -85px;
+  z-index: 20;
+}
+#main > #footer > div > #back-footer > img {
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+#main > #footer > div > div > div {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#main > #footer > div > div > div:nth-of-type(1) > div {
+  margin-bottom: 50px;
+}
+#main > #footer > div > div > div:nth-of-type(1) > div > img {
+  margin-bottom: 35px;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+#main > #footer > div > div > div:nth-of-type(1) > div > p {
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 16px;
+  display: block;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+}
+#main > #footer > div > div > div:nth-of-type(2) > div {
+  padding: 40px 30px 7px;
+  background-color: #252525;
+  border: 1px solid #4a4a4a;
+}
+@media screen and (max-width: 479px) {
+  #main > #footer > div > div > div:nth-of-type(2) > div {
+    padding: 40px 15px 7px;
+  }
+}
+#main > #footer > div > div > div:nth-of-type(2) > div > h4 {
+  margin-bottom: 40px;
+  display: block;
+  margin-block-start: 21px;
+  margin-block-end: 21px;
+}
+#main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div {
+  margin-bottom: 23px;
+}
+#main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .pic-box {
+  width: 97px;
+  height: 97px;
+  background-size: cover;
+  background-position: top center;
+  float: left;
+}
+@media screen and (max-width: 479px) {
+  #main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .pic-box {
+    width: 55px;
+    height: 55px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  #main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .pic-box {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .pic-box {
+    width: 55px;
+    height: 55px;
+  }
+}
+#main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > #pic-box1 {
+  background-image: url(../img/black2/box1/1.jpg);
+}
+#main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > #pic-box2 {
+  background-image: url(../img/black2/box1/2.jpg);
+}
+#main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > #pic-box3 {
+  background-image: url(../img/black2/box1/3.jpg);
+}
+#main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .text-pic {
+  padding-left: 110px;
+}
+@media screen and (max-width: 479px) {
+  #main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .text-pic {
+    padding-left: 67px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  #main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .text-pic {
+    padding-left: 95px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .text-pic {
+    padding-left: 67px;
+  }
+}
+#main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .text-pic > div {
+  font-size: 12px;
+  color: #ffb320;
+  margin-bottom: 8px;
+}
+#main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .text-pic > p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #d3d3d3;
+  line-height: 2;
+  margin-top: 0;
+}
+#main > #footer > div > div > div:nth-of-type(2) > div > #box1 > div > .text-pic > a {
+  font-size: 12px;
+  opacity: 0.45;
+  color: #d3d3d3;
+}
+#main > #footer > div > div > div:nth-of-type(3) > div {
+  padding: 40px 30px 7px;
+  background-color: #252525;
+  border: 1px solid #4a4a4a;
+}
+@media screen and (max-width: 479px) {
+  #main > #footer > div > div > div:nth-of-type(3) > div {
+    padding: 40px 15px 7px;
+  }
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > h4 {
+  margin-bottom: 40px;
+  display: block;
+  margin-block-start: 21px;
+  margin-block-end: 21px;
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div {
+  margin-bottom: 23px;
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > .pic2-box {
+  width: 63px;
+  height: 63px;
+  float: left;
+  background-size: cover;
+  background-position: top center;
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > #pic2-box1 {
+  background-image: url(../img/black2/box2/1.jpg);
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > #pic2-box2 {
+  background-image: url(../img/black2/box2/2.jpg);
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > #pic2-box3 {
+  background-image: url(../img/black2/box2/3.jpg);
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > #pic2-box4 {
+  background-image: url(../img/black2/box2/4.jpg);
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > .text2-pic {
+  padding-left: 100px;
+}
+@media screen and (max-width: 479px) {
+  #main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > .text2-pic {
+    padding-left: 85px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > .text2-pic {
+    padding-left: 95px;
+  }
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > .text2-pic > p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #d3d3d3;
+  line-height: 2;
+  margin-top: 0;
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > .text2-pic > p > a {
+  color: #ff205f;
+  cursor: pointer;
+  font-size: 12px;
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > .text2-pic > p > span {
+  color: #7a7a7a;
+  font-size: 12px;
+}
+#main > #footer > div > div > div:nth-of-type(3) > div > #box2 > div > .text2-pic > div {
+  font-size: 12px;
+  color: #ffb320;
+}
+#main > footer {
+  padding: 18px 0 16px;
+}
+@media screen and (max-width: 767px) {
+  #main > footer {
+    padding: 30px 0 20px;
+    text-align: center;
+  }
+}
+#main > footer > div > ul {
+  margin: 0;
+  padding: 0;
+  float: none;
+  display: block;
+  margin-block-end: 16px;
+  margin-block-start: 16px;
+}
+#main > footer > div > ul > li {
+  list-style: none;
+  display: inline;
+}
+#main > footer > div > ul > li > a {
+  margin-left: 30px;
+  display: inline-block;
+  font-size: 14px;
+  color: #aeaeae;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  #main > footer > div > ul > li > a {
+    margin-left: 5px;
+  }
+}
+#main > footer > div > .copyright {
+  float: left;
+  margin-bottom: 0;
+  color: #aeaeae;
+  font-size: 12px;
+  line-height: 2;
+}
+#main > footer > div > .copyright > a {
+  color: #007bff;
+}/*# sourceMappingURL=master.css.map */
