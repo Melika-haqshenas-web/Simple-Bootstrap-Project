@@ -1,5 +1,4 @@
 # Simple-Bootstrap-Project
-# Tochal Site
 
 🎮**Find the best game and play it**
 
